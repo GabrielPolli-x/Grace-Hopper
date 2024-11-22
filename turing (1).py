@@ -1,26 +1,56 @@
 def resumo():
-    mensagem = "Alan Mathison Turing  foi um matemático britânico, pioneiro da computação e considerado o pai da ciência computacional e da inteligência artificial."
+    mensagem = (
+        "Grace Hopper foi uma cientista da computação e contra-almirante da Marinha dos Estados Unidos. "
+        "Ela é famosa por seu trabalho pioneiro na criação do primeiro compilador de computador, "
+        "além de ajudar a popularizar o conceito de linguagens de programação de alto nível. "
+        "Grace Hopper também foi uma das primeiras a desenvolver a linguagem de programação COBOL, "
+        "que foi amplamente utilizada em sistemas administrativos e financeiros."
+    )
     return mensagem
 
 
 def doutorado():
-    mensagem = ""
+    mensagem = (
+        "Grace Hopper obteve seu doutorado em matemática pela Universidade de Yale em 1934. "
+        "Ela foi uma das poucas mulheres da época a alcançar esse nível de educação em um campo dominado por homens. "
+        "Sua tese focou em geometria, e sua formação sólida em matemática foi fundamental para sua futura carreira na computação."
+    )
     return mensagem
 
 
 def contribuicoes():
-    mensagem = ""
+    mensagem = (
+        "Grace Hopper foi uma das pioneiras na ciência da computação. Suas principais contribuições incluem:\n"
+        "- Desenvolvimento do primeiro compilador, que traduzia código simbólico para linguagem de máquina.\n"
+        "- Criação da linguagem de programação COBOL, uma das primeiras linguagens voltadas para negócios.\n"
+        "- Popularização do conceito de linguagens de programação de alto nível, tornando a computação mais acessível.\n"
+        "- Introdução da ideia de que computadores devem entender comandos próximos à linguagem humana.\n"
+        "- Sua frase 'É mais fácil pedir perdão do que permissão' tornou-se um marco no pensamento inovador."
+    )
     return mensagem
 
 
 def artigos():
-    mensagem = ""
+    mensagem = (
+        "Principais trabalhos de Grace Hopper:\n"
+        "- Desenvolvimento do compilador A-0 em 1952, um marco no avanço da programação.\n"
+        "- Projeto e padronização da linguagem COBOL, amplamente usada em sistemas administrativos.\n"
+        "- Trabalhos publicados sobre linguagens de programação de alto nível e sua aplicabilidade na indústria.\n"
+        "- Palestras e artigos sobre a importância de educar e inspirar novas gerações na área de tecnologia."
+    )
     return mensagem
 
 
 def citacoes():
-    mensagem = ""
+    mensagem = (
+        "Citações famosas de Grace Hopper:\n"
+        "- 'A coisa mais perigosa é acreditar que você já sabe tudo.'\n"
+        "- 'O futuro não é um lugar para o qual estamos indo, é um lugar que estamos criando.'\n"
+        "- 'É mais fácil pedir perdão do que permissão.'\n"
+        "- 'Os computadores são incríveis, mas precisam ser ensinados.'"
+    )
     return mensagem
+
 
 
 def sair():
