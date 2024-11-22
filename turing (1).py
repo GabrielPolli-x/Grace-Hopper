@@ -1,5 +1,14 @@
 def resumo():
-    mensagem = "Alan Mathison Turing  foi um matemático britânico, pioneiro da computação e considerado o pai da ciência computacional e da inteligência artificial."
+    mensagem = ""Grace Hopper foi uma cientista da computação e contra-almirante da Marinha dos Estados Unidos. 
+    Ela é famosa por seu trabalho pioneiro na criação do primeiro compilador de computador, 
+    além de ajudar a popularizar o conceito de linguagens de programação de alto nível.
+
+    Grace Hopper também foi uma das primeiras a desenvolver a linguagem de programação COBOL, 
+    que foi amplamente utilizada em sistemas administrativos e financeiros.
+
+    Ela recebeu diversos prêmios ao longo de sua carreira, incluindo a Medalha Nacional de Tecnologia 
+    e Inovação, e foi uma das primeiras mulheres a alcançar o posto de contra-almirante na Marinha dos EUA.
+    ""
     return mensagem
 
 
@@ -9,7 +18,15 @@ def doutorado():
 
 
 def contribuicoes():
-    mensagem = ""
+    mensagem = "As contribuições de Grace Hopper para a Ciência da Computação incluem:
+
+    1. Criou o primeiro compilador de computador em 1952, o A-0 System, 
+       permitindo que os programadores escrevessem código mais facilmente.
+    2. Trabalhou na popularização das linguagens de programação de alto nível, 
+       contribuindo diretamente para a criação da linguagem COBOL, uma das primeiras linguagens voltadas para negócios.
+    3. Defendeu a ideia de que os computadores devem ser capazes de entender comandos em uma linguagem próxima à humana.
+    4. Sua famosa citação: 'É melhor pedir desculpas do que pedir permissão' inspirou muitas gerações de inovadores.
+   "
     return mensagem
 
 
@@ -19,13 +36,16 @@ def artigos():
 
 
 def citacoes():
-    mensagem = ""
+    mensagem = "Algumas citações famosas de Grace Hopper incluem:
+    
+    - 'A coisa mais perigosa é acreditar que você já sabe tudo.'
+    - 'O futuro não é um lugar para o qual estamos indo, é um lugar que estamos criando.'
+    - 'É melhor pedir desculpas do que pedir permissão.'"
     return mensagem
 
 
 def sair():
-    mensagem = "\nObrigado pela leitura!"
-    return mensagem
+    mensagem = "\nObrigado pela leitura!"    return mensagem
 
 
 def erro():
@@ -33,7 +53,7 @@ def erro():
     return mensagem
 
 
-print("\nBoa noite! Você está aprendendo sobre Allan Turing.\n")
+print("\Boa noite! Você está aprendendo sobre Allan Turing.\n")
 
 continuar = True
 while continuar == True:
